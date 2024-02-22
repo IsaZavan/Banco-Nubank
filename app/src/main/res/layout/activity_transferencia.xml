@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transferencia">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="412dp"
+        android:layout_height="118dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="?attr/actionModeCloseDrawable"
+        app:title="Transferir"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <EditText
+        android:id="@+id/edtNumConta"
+        android:layout_width="227dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Digite o numero da conta:"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <EditText
+        android:id="@+id/edtNumAgencia"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="Digite o numero da Agencia:"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/edtValorTranf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite o Valor:"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/btnTransferir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transferir"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="516dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
